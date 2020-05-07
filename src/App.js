@@ -10,6 +10,8 @@ import Submit from './pages/Tabs/Submit';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
+
+//icon imports
 import {
   newspaperOutline,
   personCircleOutline,
@@ -17,6 +19,12 @@ import {
   trendingUpOutline,
   createOutline
 } from "ionicons/icons";
+
+//other imports
+import Login from "./pages/Auth/Login";
+import Signup from "./pages/Auth/Signup";
+import Forgot from "./pages/Auth/Forgot";
+import EditProfile from "./pages/Auth/EditProfile";
 
 /* Basic CSS for apps built with Ionic */
 import '@ionic/react/css/normalize.css';
@@ -49,6 +57,10 @@ const App= () => (
           <Route path="/submit" component={Submit}/>
           <Route path="/search" component={Search}/>
           <Route path="/profile" component={Profile}/>
+          <Route path="/login" component={Login}/>
+          <Route path="/register" component={Signup}/>
+          <Route path="/edit-profile" component={EditProfile}/>
+          <Route path="/forgot" component={Forgot}/>
           <Route component={()=><Redirect to="/news"/>}/>
       </IonRouterOutlet>
       <IonTabBar slot="bottom">
