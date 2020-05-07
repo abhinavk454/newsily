@@ -6,9 +6,9 @@ import SmallHeader from "../../components/Headers/SmallHeader";
 const Submit=()=>{
     return(
         <IonPage>
-            <SmallHeader title="submit"/>
+            <SmallHeader title="Submit"/>
             <IonContent fullscreen>
-                <LargeHeader title="submit"/>
+                <LargeHeader title="Submit"/>
             </IonContent>
         </IonPage>
     );

@@ -6,9 +6,9 @@ import SmallHeader from "../../components/Headers/SmallHeader";
 const Profile=()=>{
     return(
         <IonPage>
-            <SmallHeader title="profile"/>
+            <SmallHeader title="Profile"/>
             <IonContent fullscreen>
-                <LargeHeader title="profile"/>
+                <LargeHeader title="Profile"/>
             </IonContent>
         </IonPage>
     );

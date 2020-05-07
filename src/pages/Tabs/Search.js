@@ -6,9 +6,9 @@ import LargeHeader from "../../components/Headers/LargeHeader";
 const Search=()=>{
     return(
         <IonPage>
-            <SmallHeader title="search"/>
+            <SmallHeader title="Search"/>
             <IonContent fullscreen>
-                <LargeHeader title="search"/>
+                <LargeHeader title="Search"/>
             </IonContent>
         </IonPage>
     );

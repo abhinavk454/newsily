@@ -6,9 +6,9 @@ import LargeHeader from "../../components/Headers/LargeHeader";
 const News=()=>{
     return(
         <IonPage>
-            <SmallHeader title="news"/>
+            <SmallHeader title="News"/>
             <IonContent fullscreen>
-                <LargeHeader title="news"/>
+                <LargeHeader title="News"/>
             </IonContent>
         </IonPage>
     );
