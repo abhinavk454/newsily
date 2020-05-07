@@ -1,5 +1,7 @@
 {
   "name": "Bnews",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }
