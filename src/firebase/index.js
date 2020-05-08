@@ -1,1 +1,1 @@
-export {defaut} from "./config";
+export {default} from "./firebase";

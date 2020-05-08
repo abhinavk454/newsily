@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCkIel02vNGlAttx4TT15xi-Rks5r9Ox-I",
-    authDomain: "tutorail00.firebaseapp.com",
-    databaseURL: "https://tutorail00.firebaseio.com",
-    projectId: "tutorail00",
-    storageBucket: "tutorail00.appspot.com",
-    messagingSenderId: "431793543975",
-    appId: "1:431793543975:web:bb174a7aad0d8d9ab02702"
-  };
+  apiKey: "AIzaSyDFHszUtKRZS1mBylbjH-MHfw__Okj8q4M",
+  authDomain: "newsliy.firebaseapp.com",
+  databaseURL: "https://newsliy.firebaseio.com",
+  projectId: "newsliy",
+  storageBucket: "newsliy.appspot.com",
+  messagingSenderId: "650293369216",
+  appId: "1:650293369216:web:5aed3d162f13d6032a4965",
+  measurementId: "G-5EZ8KNNKE2"
+};
 
 export default firebaseConfig;

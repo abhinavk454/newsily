@@ -24,10 +24,10 @@ class Firebase{
         return this.auth.signOut();
     }
 
-    resetPasword(email){
+    resetPassword(email){
         return this.auth.sendPasswordResetEmail(email);
     }
 }
 
-const firebase=Firebase()
+const firebase=new Firebase()
 export default firebase;
