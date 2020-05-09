@@ -29,7 +29,7 @@ const Signup = (props) => {
     authenticateUser
   );
 
-  const { busy, setBusy } = React.useState(false);
+  const [busy, setBusy] = React.useState(false);
 
   async function authenticateUser() {
     setBusy(true);
