@@ -15,7 +15,7 @@ import Search from "./pages/Tabs/Search";
 import Trending from "./pages/Tabs/Trending";
 import Profile from "./pages/Tabs/Profile";
 import Submit from "./pages/Tabs/Submit";
-
+import Link from "./pages/Link";
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
 
@@ -75,6 +75,7 @@ const App = () => {
               <Route path="/register" component={Signup} />
               <Route path="/edit-profile" component={EditProfile} />
               <Route path="/forgot" component={Forgot} />
+              <Route path="/link/:linkId" component={Link} />
               <Route component={() => <Redirect to="/news" />} />
             </IonRouterOutlet>
             <IonTabBar slot="bottom">
