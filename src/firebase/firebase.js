@@ -16,7 +16,7 @@ class Firebase {
       email,
       password
     );
-    return newUser.user.updatePhoneNumber({ displayName: name });
+    return newUser.user.updateProfile({ displayName: name });
   }
 
   login(email, password) {
